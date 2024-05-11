@@ -1,0 +1,138 @@
+body {
+    background-color:  #d9ccf9;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-align: center;
+    color: #333;
+    line-height: 1.6;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+h1 {
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+}
+h1:hover{
+    color:  #1b1b1b;
+    transition: 0.5s;
+}
+
+h2 {
+    color: #000000;
+}
+
+p {
+    color: #000000;
+    font-size: 1.1em;
+    margin-bottom: 1.6em;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    color:  #1b1b1b;
+    transition: 0.5s;
+}
+
+ul {
+    list-style: none;
+    padding: 15px;
+    margin: 0;
+}
+
+li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header {
+    background: linear-gradient(to right, #610066, #f60000);
+    color: #f4f4f4;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+header ul li a {
+    color: #f4f4f4;
+    text-decoration: none;
+    padding: 8px; 
+}
+
+header ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2); 
+    border-radius: 5px; 
+}
+
+main {
+    margin: 0;
+    padding: 0;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+article {
+    background-color: #d9ccf9;
+    padding: 10px;
+    border-radius: 10px;
+    color: #060606;
+}
+
+#Products {
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 10px;
+    color: #000000;
+}
+
+#Products img {
+    display: block; 
+    margin: 0 auto; 
+    max-width: 100%;
+    height: auto;
+    border: 10px solid transparent;
+    animation: glowing 2s infinite;
+}
+
+@keyframes glowing {
+    0% {
+        border-color: #ff6b6b;
+        box-shadow: 0 0 20px rgba(255, 107, 107, 0.8);
+    }
+    50% {
+        border-color: #ffa500;
+        box-shadow: 0 0 20px rgba(255, 165, 0, 0.8);
+    }
+    100% {
+        border-color: #ff6b6b;
+        box-shadow: 0 0 20px rgba(255, 107, 107, 0.8);
+    }
+}
+
+footer:last-child {
+    background: linear-gradient(to right, #610066, #f60000);
+    color: #f4f4f4;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer:last-child a {
+    color: #f4f4f4;
+    text-decoration: none;
+    padding: 10px;
+}
+footer:last-child a:hover {
+    color:  #1b1b1b;
+    background-color: rgba(255, 255, 255, 0.2); 
+    border-radius: 10px; 
+    transition: 0.5s;
+}
